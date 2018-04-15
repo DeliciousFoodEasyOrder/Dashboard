@@ -1,0 +1,36 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+    </block>
+</swiper>
+
+<view class="recipe-container">
+    <view class="recipe-kind">
+        <text class="meat">肉类</text>
+        <text class="vegetable">蔬菜</text>
+        <text class="snack">小吃</text>
+        <text class="drink">小吃</text>
+        <text class="others">其他</text>
+    </view>
+    <scroll-view class="recipe-detail-container" scroll-y >
+        <view class="recipe-item" wx:for="{{recipe}}">
+            <view class="add-icon">
+                <image src="../../image/add.png"></image>
+            </view>
+            <view class="food-icon">
+                <image src="{{item.foodImgUrl}}"></image>
+            </view>
+            <view class="recipe-detail">
+                <text>{{item.detail}}</text>
+            </view>
+            <view class="food-count">
+                <text>x{{item.count}}</text>
+            </view>
+            <view class="subtract-icon">
+                <image src="../../image/subtract.png"></image>
+            </view>
+        </view>
+    </scroll-view>
+</view>
