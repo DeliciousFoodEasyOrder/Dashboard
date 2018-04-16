@@ -1,0 +1,68 @@
+.desk-money {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.desk-id, .money-to-pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #aaa;
+}
+.desk-id {
+    width: 30%;
+}
+.money-to-pay {
+    flex-grow: 1;
+}
+.recipe-detail-container {
+    display: flex;
+    flex-direction: column;
+}
+.recipe-title {
+    margin: 10px;
+}
+.recipe-item {
+    display: flex;
+    height: 62px;
+    flex-direction: row;
+    border: 1px solid #aaa;
+    margin-bottom: 5px;
+}
+
+.minus-icon {
+    height: 62px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-icon {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-icon image {
+    height: 50px;
+    width: 50px;
+}
+.minus-icon image {
+    height: 32px;
+    width: 32px;
+}
+.food-count {
+    height: 62px;
+    width: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recipe-detail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+}

@@ -1,0 +1,114 @@
+/**index.wxss**/
+page {
+    height: 100%;
+    widows: 100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  border-radius: 50%;
+}
+.userinfo-text {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.userinfo-nickname {
+    position: relative;
+    left: 60px;
+}
+.userinfo-id {
+    position: relative;
+    right: 40px;
+}
+
+.money-coupon-feedback {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+}
+.money {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.coupon {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.feedback {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.order-list-container {
+    width: 100%;
+    height: fit-content;
+}
+.order-list-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffdf;
+}
+.order-list {
+    height: 370px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.order-list-item {
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    margin-top: 3px;
+}
+.order-list-status {
+    width: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.order-list-recipe {
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.order-list-time {
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 15px;
+}
