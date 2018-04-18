@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="userinfo-container">
+        <view class="userinfo">
+            <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+            <block wx:else>
+                <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+                <view class="userinfo-text">
+                    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+                    <text class="userinfo-id">{{id}}</text>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class="money-coupon-feedback">
+        <view class="money">
+            <text>余额</text>
+        </view>
+        <view class="coupon">
+            <text>优惠券</text>
+        </view>
+        <view class="feedback">
+            <text>举报反馈</text>
+        </view>
+    </view>
+    <view class="order-list-container" >
+        <view class="order-list-title">
+            <text>订单详情</text>
+        </view>
+        <scroll-view class="order-list" scroll-y >
+            <view wx:for="{{orderList}}" class="order-list-item">
+                <text class="order-list-status">{{item.status}}</text>
+                <text class="order-list-recipe">{{item.recipe}}</text>
+                <text class="order-list-time">{{item.time}}</text>
+            </view>
+        </scroll-view>
+    </view>
+</view>
