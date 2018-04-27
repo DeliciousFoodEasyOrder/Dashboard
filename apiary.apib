@@ -11,9 +11,11 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
 + Parameters
 
-    - email : `example@email.com` (string) - Email
-    - phone : `12345678901` (string) - Phone
-    - password : `password` (string, required) - Password
+    + email : `example@email.com` (string) - Email
+
+    + phone : `12345678901` (string) - Phone
+
+    + password : `password` (string, required) - Password
     
 + Response 200 (application/json)
 
@@ -57,8 +59,9 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
 + Parameters
 
-    - merchant_id : 1 (int) - Merchant ID
-    - status : 1 (int) - 已完成:0, 正在做:1
+    + merchant_id : 1 (int, required) - Merchant ID
+
+    + status : 1 (int) - 已完成:0, 正在做:1
 
 + Request
 
@@ -89,3 +92,145 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
                 "complete_time":"2018-01-02 12:00:00"
             }]
         }
+        
+### Get an order [GET /orders/{id}]
+
++ Parameters
+
+    + id : 1 (int, required) - Order ID
+
++ Request
+
+    + Headers
+        
+            Authorization:JWT xxxx.yyyy.zzzz
+            
++ Response 200 (application/json)
+
+        {
+            "code":200,
+            "msg":"获取订单成功",
+            "data":{
+                "order_id":1,
+                "status":0,
+                "seat_id":1,
+                "customer_id":1,
+                "merchant_id":1,
+                "order_time":"2018-01-01 12:00:00",
+                "complete_time":"2018-01-02 12:00:00"
+            }
+        }
+        
+### Update an order partially [PATCH /orders/{id}]
+
++ Parameters
+
+    + id : 1 (int, required) - Order ID
+
++ Request (application/json)
+
+    + Headers
+        
+            Authorization:JWT xxxx.yyyy.zzzz
+            
+    + Body
+    
+            {
+                "status":0
+            }
+
++ Response 201 (application/json)
+
+        {
+            "code":201,
+            "msg":"修改订单成功",
+            "data":{
+                "order_id":1,
+                "status":0,
+                "seat_id":1,
+                "customer_id":1,
+                "merchant_id":1,
+                "order_time":"2018-01-01 12:00:00",
+                "complete_time":"2018-01-02 12:00:00"
+            }
+        }
+        
+## Seats Collection [/seats]
+
+### List seats [GET /seats{?merchant_id}]
+
++ Parameters
+
+    + merchant_id : 1 (int, required) - Merchant ID
+    
++ Request
+
+    + Headers
+        
+            Authorization:JWT xxxx.yyyy.zzzz
+            
++ Response 200 (application/json)
+
+        {
+            "code":200,
+            "msg":"获取商家座位信息成功",
+            "data":[{
+                "seat_id":1,
+                "number":"1A",
+                "qr_code_url":"https://www.example.com",
+                "merchant_id":1
+            },{
+                "seat_id":2,
+                "number":"1B",
+                "qr_code_url":"https://www.example.com",
+                "merchant_id":1
+            }]
+        }
+        
+### Create a seat [POST /seats{?merchant_id}]
+
++ Parameters
+
+    + merchant_id : 1 (int, required) - Merchant ID
+    
++ Request (application/json)
+
+    + Headers
+        
+            Authorization:JWT xxxx.yyyy.zzzz
+            
+    + Body
+    
+            {
+                "seat_id":null,
+                "number":"2A",
+                "qr_code_url":"https://www.example.com",
+                "merchant_id":1
+            }
+            
++ Response 201 (application/json)
+
+        {
+            "code":201,
+            "msg":"新建座位成功",
+            "data":{
+                "seat_id":2,
+                "number":"2A",
+                "qr_code_url":"https://www.example.com",
+                "merchant_id":1
+            }
+        }
+
+### Delete a seat [DELETE /seats/{seat_id}]
+
++ Parameters
+
+    + seat_id : 1 (int, required) - Seat ID
+    
++ Request
+
+    + Headers
+        
+            Authorization:JWT xxxx.yyyy.zzzz
+            
++ Response 204
