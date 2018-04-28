@@ -27,7 +27,7 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
             }
         }
 
-## Merchants Collection [/merchants]
+## Merchant Collection [/merchants]
 
 ### Create a merchant [POST /merchants]
 
@@ -53,7 +53,7 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
             }
         }
         
-## Orders Collection [/orders]
+## Order Collection [/orders]
 
 ### List orders [GET /orders{?merchant_id,status}]
 
@@ -67,7 +67,7 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
     + Headers
         
-            Authorization:JWT xxxx.yyyy.zzzz
+            Authorization: JWT xxxx.yyyy.zzzz
 
 + Response 200 (application/json)
 
@@ -81,7 +81,22 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
                 "customer_id":1,
                 "merchant_id":1,
                 "order_time":"2018-01-01 12:00:00",
-                "complete_time":"2018-01-02 12:00:00"
+                "complete_time":"2018-01-02 12:00:00",
+                "foods":[{
+                    "food_id":1,
+                    "name":"鱼香肉丝",
+                    "description":"香喷喷的鱼香肉丝",
+                    "price":"9.99",
+                    "merchant_id":1,
+                    "amount":2,
+                },{
+                    "food_id":2,
+                    "name":"兰州拉面",
+                    "description":"清真的拉面",
+                    "price":"39.99",
+                    "merchant_id":1,
+                    "amount":1,
+                }]
             },{
                 "order_id":2,
                 "status":0,
@@ -89,7 +104,15 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
                 "customer_id":1,
                 "merchant_id":1,
                 "order_time":"2018-01-01 12:00:00",
-                "complete_time":"2018-01-02 12:00:00"
+                "complete_time":"2018-01-02 12:00:00",
+                "foods":[{
+                    "food_id":1,
+                    "name":"鱼香肉丝",
+                    "description":"香喷喷的鱼香肉丝",
+                    "price":"9.99",
+                    "merchant_id":1,
+                    "amount":2,
+                }]
             }]
         }
         
@@ -103,7 +126,7 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
     + Headers
         
-            Authorization:JWT xxxx.yyyy.zzzz
+            Authorization: JWT xxxx.yyyy.zzzz
             
 + Response 200 (application/json)
 
@@ -117,7 +140,88 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
                 "customer_id":1,
                 "merchant_id":1,
                 "order_time":"2018-01-01 12:00:00",
-                "complete_time":"2018-01-02 12:00:00"
+                "complete_time":"2018-01-02 12:00:00",
+                "foods":[{
+                    "food_id":1,
+                    "name":"鱼香肉丝",
+                    "description":"香喷喷的鱼香肉丝",
+                    "price":"9.99",
+                    "merchant_id":1,
+                    "amount":2
+                },{
+                    "food_id":2,
+                    "name":"兰州拉面",
+                    "description":"清真的拉面",
+                    "price":"39.99",
+                    "merchant_id":1,
+                    "amount":2
+                }]
+            }
+        }
+        
+### Create an order [POST /orders]
+
++ Request (application/json)
+
+    + Headers
+        
+            Authorization: JWT xxxx.yyyy.zzzz
+            
+    + Body
+            
+            {
+                "order_id":null,
+                "status":0,
+                "seat_id":1,
+                "customer_id":1,
+                "merchant_id":1,
+                "order_time":"2018-01-01 12:00:00",
+                "complete_time":"2018-01-02 12:00:00",
+                "foods":[{
+                    "food_id":1,
+                    "name":"鱼香肉丝",
+                    "description":"香喷喷的鱼香肉丝",
+                    "price":"9.99",
+                    "merchant_id":1,
+                    "amount":2
+                },{
+                    "food_id":2,
+                    "name":"兰州拉面",
+                    "description":"清真的拉面",
+                    "price":"39.99",
+                    "merchant_id":1,
+                    "amount":1
+                }]
+            }
+            
++ Response 201 (application/json)
+
+        {
+            "code":201,
+            "msg":"创建订单成功",
+            "data":{
+                "order_id":1,
+                "status":0,
+                "seat_id":1,
+                "customer_id":1,
+                "merchant_id":1,
+                "order_time":"2018-01-01 12:00:00",
+                "complete_time":"2018-01-02 12:00:00",
+                "foods":[{
+                    "food_id":1,
+                    "name":"鱼香肉丝",
+                    "description":"香喷喷的鱼香肉丝",
+                    "price":"9.99",
+                    "merchant_id":1,
+                    "amount":2
+                },{
+                    "food_id":2,
+                    "name":"兰州拉面",
+                    "description":"清真的拉面",
+                    "price":"39.99",
+                    "merchant_id":1,
+                    "amount":1
+                }]
             }
         }
         
@@ -131,7 +235,7 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
     + Headers
         
-            Authorization:JWT xxxx.yyyy.zzzz
+            Authorization: JWT xxxx.yyyy.zzzz
             
     + Body
     
@@ -151,11 +255,26 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
                 "customer_id":1,
                 "merchant_id":1,
                 "order_time":"2018-01-01 12:00:00",
-                "complete_time":"2018-01-02 12:00:00"
+                "complete_time":"2018-01-02 12:00:00",
+                "foods":[{
+                    "food_id":1,
+                    "name":"鱼香肉丝",
+                    "description":"香喷喷的鱼香肉丝",
+                    "price":"9.99",
+                    "merchant_id":1,
+                    "amount":2
+                },{
+                    "food_id":2,
+                    "name":"兰州拉面",
+                    "description":"清真的拉面",
+                    "price":"39.99",
+                    "merchant_id":1,
+                    "amount":1
+                }]
             }
         }
         
-## Seats Collection [/seats]
+## Seat Collection [/seats]
 
 ### List seats [GET /seats{?merchant_id}]
 
@@ -167,7 +286,7 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
     + Headers
         
-            Authorization:JWT xxxx.yyyy.zzzz
+            Authorization: JWT xxxx.yyyy.zzzz
             
 + Response 200 (application/json)
 
@@ -197,7 +316,7 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
     + Headers
         
-            Authorization:JWT xxxx.yyyy.zzzz
+            Authorization: JWT xxxx.yyyy.zzzz
             
     + Body
     
@@ -231,6 +350,112 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
     + Headers
         
-            Authorization:JWT xxxx.yyyy.zzzz
+            Authorization: JWT xxxx.yyyy.zzzz
             
++ Response 204
+
+## Food Collection [/foods]
+
+### List foods [GET /foods{?merchant_id}]
+
++ Parameters
+
+    + merchant_id : 1 (int, required) - Merchant ID
+    
++ Request
+
+    + Headers
+        
+            Authorization: JWT xxxx.yyyy.zzzz
+            
++ Response 200 (application/json)
+
+        {
+            "code":200,
+            "msg":"获取菜单成功",
+            "data":[{
+                "food_id":1,
+                "name":"鱼香肉丝",
+                "description":"香喷喷的鱼香肉丝",
+                "price":"9.99",
+                "merchant_id":1
+            },{
+                "food_id":2,
+                "name":"兰州拉面",
+                "description":"清真的拉面",
+                "price":"39.99",
+                "merchant_id":1
+            }]
+        }
+
+### Get a food [GET /foods/{food_id}]
+
++ Parameters
+
+    + food_id : 1 (int, required) - Food ID
+    
++ Request
+
+    + Headers
+    
+            Authorization: JWT xxxx.yyyy.zzzz
+            
++ Response 200 (application/json)
+
+        {
+            "code":200,
+            "msg":"获取菜品成功",
+            "data":{
+                "food_id":1,
+                "name":"鱼香肉丝",
+                "description":"香喷喷的鱼香肉丝",
+                "price":"9.99",
+                "merchant_id":1
+            }
+        }
+
+### Create a food [POST /foods]
+
++ Request (application/json)
+
+    + Headers
+
+            Authorization: JWT xxxx.yyyy.zzzz
+
+    + Body
+    
+            {
+                "food_id":null,
+                "name":"香菇牛肉",
+                "description":"好食又好看",
+                "price":"13.00",
+                "merchant_id":1
+            }
+            
++ Response 201 (application/json)
+
+        {
+            "code":201,
+            "msg":"创建菜品成功",
+            "data":{
+                "food_id":2,
+                "name":"香菇牛肉",
+                "description":"好食又好看",
+                "price":"13.00",
+                "merchant_id":1
+            }
+        }
+        
+### Delete a food [DELETE /foods/{food_id}]
+
++ Parameters
+
+    + food_id : 1 (int, required) - Food ID
+
++ Request (application/json)
+
+    + Headers
+    
+            Authorization: JWT xxxx.yyyy.zzzz
+
 + Response 204
