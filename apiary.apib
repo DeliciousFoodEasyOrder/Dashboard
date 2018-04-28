@@ -29,6 +29,33 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
 ## Merchant Collection [/merchants]
 
+### Get a merchant [GET /merchants{?email,phone}]
+
++ Parameters
+
+    + email : `example@email.com` (string) - Email
+
+    + phone : `12345678901` (string) - Phone
+    
++ Request
+
+    + Headers
+
+            Authorization: JWT xxxx.yyyy.zzzz
+            
++ Response 200 (application/json)
+
+        {
+            "code":200,
+            "msg":"获取商户信息成功",
+            "data":{
+                "merchant_id":1,
+                "email":"example@email.com",
+                "phone":"12345678901",
+                "password":"password"
+            }
+        }
+
 ### Create a merchant [POST /merchants]
 
 + Request (application/json)
