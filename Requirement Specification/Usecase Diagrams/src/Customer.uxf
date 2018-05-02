@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>9</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>468</x>
-      <y>378</y>
-      <w>54</w>
-      <h>99</h>
+      <x>96</x>
+      <y>400</y>
+      <w>48</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>顾客</panel_attributes>
     <additional_attributes/>
@@ -15,66 +15,45 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>729</x>
-      <y>54</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>208</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
-    <panel_attributes>扫码</panel_attributes>
+    <panel_attributes>扫码
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>729</x>
-      <y>297</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>328</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
-    <panel_attributes>选择菜品</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>918</x>
-      <y>27</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>调用摄像头</panel_attributes>
+    <panel_attributes>选择菜品
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>36</y>
-      <w>108</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>100.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>513</x>
-      <y>63</y>
-      <w>234</w>
-      <h>378</h>
+      <x>136</x>
+      <y>216</y>
+      <w>208</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;10.0;10.0;400.0</additional_attributes>
+    <additional_attributes>240.0;10.0;10.0;280.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>306</y>
-      <w>234</w>
-      <h>135</h>
+      <x>136</x>
+      <y>336</y>
+      <w>208</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>240.0;10.0;10.0;130.0</additional_attributes>
@@ -82,10 +61,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>252</y>
-      <w>108</w>
-      <h>36</h>
+      <x>496</x>
+      <y>288</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>选择菜品种类</panel_attributes>
     <additional_attributes/>
@@ -93,21 +72,22 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>729</x>
-      <y>405</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>424</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
-    <panel_attributes>编辑购物车</panel_attributes>
+    <panel_attributes>编辑购物车
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>387</y>
-      <w>108</w>
-      <h>36</h>
+      <x>496</x>
+      <y>408</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>增加菜品数量</panel_attributes>
     <additional_attributes/>
@@ -115,10 +95,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>342</y>
-      <w>108</w>
-      <h>36</h>
+      <x>496</x>
+      <y>368</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>选择菜品数量</panel_attributes>
     <additional_attributes/>
@@ -126,10 +106,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>432</y>
-      <w>108</w>
-      <h>36</h>
+      <x>496</x>
+      <y>448</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>删除菜品</panel_attributes>
     <additional_attributes/>
@@ -137,10 +117,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>405</y>
-      <w>234</w>
-      <h>36</h>
+      <x>136</x>
+      <y>424</y>
+      <w>208</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>240.0;20.0;10.0;20.0</additional_attributes>
@@ -148,65 +128,34 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>729</x>
-      <y>477</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>488</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
-    <panel_attributes>创建订单</panel_attributes>
+    <panel_attributes>创建订单
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>477</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>544</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
-    <panel_attributes>选择优惠券</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>720</x>
-      <y>540</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>微信支付订单</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>720</x>
-      <y>612</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>成功支付</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>936</x>
-      <y>612</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>随机赠送优惠券</panel_attributes>
+    <panel_attributes>支付订单
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>414</y>
-      <w>234</w>
-      <h>99</h>
+      <x>136</x>
+      <y>432</y>
+      <w>208</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>240.0;90.0;10.0;10.0</additional_attributes>
@@ -214,89 +163,32 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>414</y>
-      <w>225</w>
-      <h>162</h>
+      <x>136</x>
+      <y>432</y>
+      <w>208</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>230.0;160.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>513</x>
-      <y>414</y>
-      <w>225</w>
-      <h>234</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>230.0;240.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;160.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>729</x>
-      <y>684</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>592</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>进入个人中心</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>828</x>
-      <y>666</y>
-      <w>126</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>120.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>828</x>
-      <y>693</y>
-      <w>126</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>120.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>936</x>
-      <y>657</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>推荐商家</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>936</x>
-      <y>702</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>推荐菜品</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>918</x>
-      <y>297</y>
-      <w>108</w>
-      <h>36</h>
+      <x>496</x>
+      <y>328</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>推荐商家菜品</panel_attributes>
     <additional_attributes/>
@@ -304,10 +196,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>297</y>
-      <w>108</w>
-      <h>36</h>
+      <x>416</x>
+      <y>328</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
@@ -316,33 +208,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>72</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>识别二维码</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>828</x>
-      <y>63</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>100.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>729</x>
-      <y>144</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>264</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>搜寻菜品</panel_attributes>
     <additional_attributes/>
@@ -350,10 +219,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>261</y>
-      <w>108</w>
-      <h>72</h>
+      <x>416</x>
+      <y>296</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
@@ -362,10 +231,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>306</y>
-      <w>108</w>
-      <h>72</h>
+      <x>416</x>
+      <y>336</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
@@ -374,10 +243,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>117</y>
-      <w>108</w>
-      <h>36</h>
+      <x>504</x>
+      <y>248</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>输入文字</panel_attributes>
     <additional_attributes/>
@@ -385,90 +254,44 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>126</y>
-      <w>108</w>
-      <h>54</h>
+      <x>416</x>
+      <y>256</y>
+      <w>104</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>100.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>918</x>
-      <y>162</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>输入语音</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>918</x>
-      <y>207</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>输入图片</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>110.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>153</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>100.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>828</x>
-      <y>153</y>
-      <w>108</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>100.0;80.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>513</x>
-      <y>153</y>
-      <w>234</w>
-      <h>288</h>
+      <x>136</x>
+      <y>272</y>
+      <w>208</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;10.0;10.0;300.0</additional_attributes>
+    <additional_attributes>240.0;10.0;10.0;210.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>414</y>
-      <w>234</w>
-      <h>306</h>
+      <x>136</x>
+      <y>432</y>
+      <w>208</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;320.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;220.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>729</x>
-      <y>765</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>632</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>评价菜品</panel_attributes>
     <additional_attributes/>
@@ -476,89 +299,44 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>927</x>
-      <y>747</y>
-      <w>108</w>
-      <h>36</h>
+      <x>328</x>
+      <y>680</y>
+      <w>96</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>查看历史评价</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>729</x>
-      <y>837</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>查看菜品信息</panel_attributes>
+    <panel_attributes>查看菜品信息
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>693</y>
-      <w>117</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>110.0;80.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>513</x>
-      <y>414</y>
-      <w>234</w>
-      <h>387</h>
+      <x>136</x>
+      <y>432</y>
+      <w>208</w>
+      <h>232</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;410.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;270.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>414</y>
-      <w>234</w>
-      <h>459</h>
+      <x>136</x>
+      <y>432</y>
+      <w>208</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;490.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>864</x>
-      <y>783</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>查看优惠券</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>240.0;330.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>693</y>
-      <w>90</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>40.0;120.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>828</x>
-      <y>414</y>
-      <w>108</w>
-      <h>54</h>
+      <x>416</x>
+      <y>432</y>
+      <w>96</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
@@ -567,80 +345,56 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>396</y>
-      <w>108</w>
-      <h>45</h>
+      <x>416</x>
+      <y>416</y>
+      <w>96</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
     <additional_attributes>100.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>828</x>
-      <y>477</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>819</x>
-      <y>612</y>
-      <w>135</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>657</x>
-      <y>0</y>
-      <w>432</w>
-      <h>891</h>
+      <x>272</x>
+      <y>184</y>
+      <w>360</w>
+      <h>568</h>
     </coordinates>
-    <panel_attributes>*顾客系统*</panel_attributes>
+    <panel_attributes>*顾客点餐系统*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>918</x>
-      <y>540</y>
-      <w>108</w>
-      <h>36</h>
+      <x>496</x>
+      <y>544</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
-    <panel_attributes>支付宝支付订单</panel_attributes>
+    <panel_attributes>微信支付订单</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
-      <y>540</y>
-      <w>117</w>
-      <h>36</h>
+      <x>416</x>
+      <y>544</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>891</x>
-      <y>837</y>
-      <w>108</w>
-      <h>36</h>
+      <x>504</x>
+      <y>680</y>
+      <w>96</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>查看菜品评价</panel_attributes>
     <additional_attributes/>
@@ -648,13 +402,36 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>837</y>
-      <w>81</w>
-      <h>36</h>
+      <x>416</x>
+      <y>680</y>
+      <w>104</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>504</x>
+      <y>592</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>查看历史订单</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>592</y>
+      <w>104</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
