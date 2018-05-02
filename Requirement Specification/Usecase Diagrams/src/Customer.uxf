@@ -129,19 +129,7 @@ bg=red</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>328</x>
-      <y>488</y>
-      <w>96</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>创建订单
-bg=red</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>328</x>
-      <y>544</y>
+      <y>496</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -155,27 +143,16 @@ bg=red</panel_attributes>
       <x>136</x>
       <y>432</y>
       <w>208</w>
-      <h>88</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;90.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>136</x>
-      <y>432</y>
-      <w>208</w>
-      <h>144</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>240.0;160.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
       <x>328</x>
-      <y>592</y>
+      <y>544</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -280,16 +257,16 @@ bg=red</panel_attributes>
       <x>136</x>
       <y>432</y>
       <w>208</w>
-      <h>192</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;220.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;160.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
       <x>328</x>
-      <y>632</y>
+      <y>584</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -300,7 +277,7 @@ bg=red</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>328</x>
-      <y>680</y>
+      <y>632</y>
       <w>96</w>
       <h>40</h>
     </coordinates>
@@ -314,10 +291,10 @@ bg=red</panel_attributes>
       <x>136</x>
       <y>432</y>
       <w>208</w>
-      <h>232</h>
+      <h>184</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;270.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;210.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -325,10 +302,10 @@ bg=red</panel_attributes>
       <x>136</x>
       <y>432</y>
       <w>208</w>
-      <h>280</h>
+      <h>232</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>240.0;330.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;270.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -360,7 +337,7 @@ bg=red</panel_attributes>
       <x>272</x>
       <y>184</y>
       <w>360</w>
-      <h>568</h>
+      <h>504</h>
     </coordinates>
     <panel_attributes>*顾客点餐系统*</panel_attributes>
     <additional_attributes/>
@@ -369,7 +346,7 @@ bg=red</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>496</x>
-      <y>544</y>
+      <y>496</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -380,7 +357,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>544</y>
+      <y>496</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -392,7 +369,7 @@ bg=red</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>504</x>
-      <y>680</y>
+      <y>632</y>
       <w>96</w>
       <h>40</h>
     </coordinates>
@@ -403,7 +380,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>680</y>
+      <y>632</y>
       <w>104</w>
       <h>32</h>
     </coordinates>
@@ -415,7 +392,7 @@ bg=red</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>504</x>
-      <y>592</y>
+      <y>544</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -426,7 +403,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>592</y>
+      <y>544</y>
       <w>104</w>
       <h>32</h>
     </coordinates>
