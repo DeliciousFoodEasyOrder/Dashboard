@@ -75,8 +75,7 @@
     </coordinates>
     <panel_attributes>餐桌
 -
-编号
-方位</panel_attributes>
+编号</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -222,11 +221,12 @@ belong to &gt;</panel_attributes>
       <x>472</x>
       <y>424</y>
       <w>80</w>
-      <h>40</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes>顾客
 -
-微信号</panel_attributes>
+微信号
+余额</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -255,7 +255,7 @@ m2=1
 m1=*
 m2=1
 belong to &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0;410.0;90.0;410.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;410.0;90.0;410.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
