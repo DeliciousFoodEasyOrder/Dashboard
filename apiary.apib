@@ -5,15 +5,15 @@ HOST: http://polls.apiblueprint.org/
 
 REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
 
-## JWT Collection [/auth]
+## OAuth Collection [/oauth]
 
-### Get a JWT [GET /auth{?email,phone,password}]
+### Password Grant [POST /oauth/token{?grant_type,username,password}]
 
 + Parameters
 
-    + email : `example@email.com` (string) - Email
+    + grant_type : `password` (string, required) - Fixed, must be "password"
 
-    + phone : `12345678901` (string) - Phone
+    + username : `example@email.com` (string, required) - Email or Phone
 
     + password : `password` (string, required) - Password
     
@@ -23,7 +23,9 @@ REST APIs for Project [EasyOrder](https://github.com/DeliciousFoodEasyOrder).
             "code":200,
             "msg":"认证成功",
             "data":{
-                "jwt":"xxxx.yyyy.zzzz"
+                "access_token":"xxxx.yyyy.zzzz",
+                "token_type":"JWT",
+                "expires_in":259200
             }
         }
 
