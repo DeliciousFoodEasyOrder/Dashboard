@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>56</x>
-      <y>272</y>
+      <y>304</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -16,11 +16,11 @@
     <id>UMLClass</id>
     <coordinates>
       <x>144</x>
-      <y>176</y>
+      <y>208</y>
       <w>104</w>
       <h>64</h>
     </coordinates>
-    <panel_attributes>商店管理系统账号
+    <panel_attributes>餐厅
 -
 邮箱
 手机号
@@ -31,7 +31,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>320</x>
-      <y>200</y>
+      <y>232</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -42,7 +42,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>504</x>
-      <y>184</y>
+      <y>216</y>
       <w>80</w>
       <h>64</h>
     </coordinates>
@@ -58,7 +58,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>456</x>
-      <y>296</y>
+      <y>328</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -69,21 +69,20 @@
     <id>UMLClass</id>
     <coordinates>
       <x>344</x>
-      <y>392</y>
+      <y>424</y>
       <w>80</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>座位
+    <panel_attributes>餐桌
 -
-编号
-方位</panel_attributes>
+编号</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>152</x>
-      <y>304</y>
+      <y>336</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -94,7 +93,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>120</x>
-      <y>392</y>
+      <y>424</y>
       <w>144</w>
       <h>40</h>
     </coordinates>
@@ -108,7 +107,7 @@
     <id>Relation</id>
     <coordinates>
       <x>240</x>
-      <y>192</y>
+      <y>224</y>
       <w>96</w>
       <h>40</h>
     </coordinates>
@@ -122,7 +121,7 @@ has &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>88</x>
-      <y>200</y>
+      <y>232</y>
       <w>72</w>
       <h>88</h>
     </coordinates>
@@ -136,7 +135,7 @@ own ^</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>392</x>
-      <y>192</y>
+      <y>224</y>
       <w>128</w>
       <h>40</h>
     </coordinates>
@@ -150,7 +149,7 @@ has &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>184</x>
-      <y>232</y>
+      <y>264</y>
       <w>56</w>
       <h>88</h>
     </coordinates>
@@ -164,7 +163,7 @@ has v</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>184</x>
-      <y>320</y>
+      <y>352</y>
       <w>56</w>
       <h>88</h>
     </coordinates>
@@ -178,7 +177,7 @@ has v</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>240</x>
-      <y>224</y>
+      <y>256</y>
       <w>272</w>
       <h>88</h>
     </coordinates>
@@ -192,7 +191,7 @@ has &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>312</y>
+      <y>344</y>
       <w>96</w>
       <h>96</h>
     </coordinates>
@@ -206,7 +205,7 @@ has v</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>256</x>
-      <y>392</y>
+      <y>424</y>
       <w>104</w>
       <h>40</h>
     </coordinates>
@@ -220,20 +219,21 @@ belong to &gt;</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>472</x>
-      <y>392</y>
+      <y>424</y>
       <w>80</w>
-      <h>40</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes>顾客
 -
-微信号</panel_attributes>
+微信号
+余额</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>392</y>
+      <y>424</y>
       <w>72</w>
       <h>40</h>
     </coordinates>
@@ -247,7 +247,7 @@ m2=1
     <id>Relation</id>
     <coordinates>
       <x>184</x>
-      <y>424</y>
+      <y>456</y>
       <w>344</w>
       <h>88</h>
     </coordinates>
@@ -255,13 +255,13 @@ m2=1
 m1=*
 m2=1
 belong to &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0;410.0;90.0;410.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;410.0;90.0;410.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>304</x>
-      <y>296</y>
+      <y>328</y>
       <w>72</w>
       <h>24</h>
     </coordinates>
@@ -272,7 +272,7 @@ belong to &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>336</x>
-      <y>312</y>
+      <y>344</y>
       <w>72</w>
       <h>96</h>
     </coordinates>
@@ -286,7 +286,7 @@ identify v</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>232</x>
-      <y>232</y>
+      <y>264</y>
       <w>120</w>
       <h>80</h>
     </coordinates>
@@ -300,7 +300,7 @@ has &gt;</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>624</x>
-      <y>392</y>
+      <y>424</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -312,7 +312,7 @@ has &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>544</x>
-      <y>392</y>
+      <y>424</y>
       <w>96</w>
       <h>40</h>
     </coordinates>
@@ -326,7 +326,7 @@ has &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>8</x>
-      <y>152</y>
+      <y>184</y>
       <w>552</w>
       <h>280</h>
     </coordinates>
