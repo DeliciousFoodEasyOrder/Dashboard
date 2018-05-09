@@ -4,6 +4,7 @@ Record development progress of DeliciousFoodEasyOrder.
 ## 项目名称：好吃易点/DFEO
 ## 队伍名称：SYSU-F6
 ## 团队成员:
+
 |学号|姓名|英文名|专业方向|职务|
 |:--:|:--:|:--:|:--:|:--:|
 |15331390|侨|Jiaqiao Zhang|技术、规划|项目经理、后端工程师|
@@ -12,7 +13,9 @@ Record development progress of DeliciousFoodEasyOrder.
 |15331037|东|Xudong Chen|技术|技术经理、前端工程师|
 |15331400|博|Shubo Zhang|技术|后端工程师|
 |15331154|飞|Jinfei Li|技术|前端工程师|
+
 ## 具体分工
+
 |昵称|分工内容|个人宣言|
 |:--:|:--:|:--:|
 |侨|负责项目总体规划和具体分工、确定项目迭代周期目标；负责项目后端数据库技术开发；项目素材收集；|Coding makes the world better|
