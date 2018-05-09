@@ -18,4 +18,4 @@
 
 9. [会议记录](/Dashboard/Meeting%20Records)
 
-10. [Airbnb民宿预订建模练习](/Dashboard/Airbnb民宿预订建模练习)
+10. [Airbnb民宿预订建模练习](/Dashboard/Airbnb民宿预订业务建模练习)
