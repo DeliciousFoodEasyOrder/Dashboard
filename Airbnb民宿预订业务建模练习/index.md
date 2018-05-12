@@ -1,7 +1,7 @@
 # 目录
 
-- 10.1 [Airbnb民宿预订](/Dashboard/Airbnb民宿预订业务建模练习/Airbnb民宿预订)
+- 10.1 [Airbnb民宿预订](Airbnb民宿预订)
 
-- 10.2 [建模要求](/Dashboard/Airbnb民宿预订业务建模练习/建模要求)
+- 10.2 [建模要求](建模要求)
 
 - 10.3 建模者答案
