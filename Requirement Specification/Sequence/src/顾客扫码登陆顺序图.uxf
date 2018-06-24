@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>56</x>
-      <y>264</y>
+      <x>8</x>
+      <y>288</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>144</x>
-      <y>264</y>
+      <x>96</x>
+      <y>288</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>408</x>
-      <y>264</y>
+      <x>272</x>
+      <y>288</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>232</x>
-      <y>264</y>
+      <x>184</x>
+      <y>288</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -48,53 +48,53 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>280</y>
+      <x>40</x>
+      <y>304</y>
       <w>24</w>
-      <h>296</h>
+      <h>368</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>176</x>
-      <y>280</y>
+      <x>128</x>
+      <y>304</y>
       <w>24</w>
-      <h>296</h>
+      <h>368</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>280</y>
+      <x>304</x>
+      <y>304</y>
       <w>24</w>
-      <h>296</h>
+      <h>368</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>312</y>
+      <x>40</x>
+      <y>336</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-扫码</panel_attributes>
+扫小程序二维码</panel_attributes>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>320</x>
-      <y>264</y>
+      <x>360</x>
+      <y>288</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -104,19 +104,19 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>352</x>
-      <y>280</y>
+      <x>392</x>
+      <y>304</y>
       <w>24</w>
-      <h>296</h>
+      <h>368</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>176</x>
-      <y>344</y>
+      <x>128</x>
+      <y>368</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
@@ -127,84 +127,130 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>280</y>
+      <x>216</x>
+      <y>304</y>
       <w>24</w>
-      <h>296</h>
+      <h>368</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>376</y>
-      <w>112</w>
+      <x>216</x>
+      <y>400</y>
+      <w>288</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 扫描</panel_attributes>
-    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>176</x>
-      <y>408</y>
-      <w>200</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-商家、座位URL</panel_attributes>
-    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>176</x>
-      <y>472</y>
-      <w>288</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-登陆商家小程序</panel_attributes>
     <additional_attributes>340.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>176</x>
-      <y>440</y>
+      <x>128</x>
+      <y>432</y>
       <w>288</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-微信号,商家座位URL</panel_attributes>
-    <additional_attributes>340.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>176</x>
-      <y>520</y>
-      <w>288</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-商家小程序页面</panel_attributes>
+小程序信息</panel_attributes>
     <additional_attributes>10.0;20.0;340.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
+      <x>128</x>
+      <y>592</y>
+      <w>200</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+微信号,商家座位id</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
       <y>496</y>
-      <w>88</w>
-      <h>48</h>
+      <w>200</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+扫描座位二维码页面</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>448</x>
+      <y>288</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>_:小程序二维码_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>304</y>
+      <w>24</w>
+      <h>368</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>464</y>
+      <w>200</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-查询URL</panel_attributes>
-    <additional_attributes>10.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+打开小程序</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>528</y>
+      <w>288</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+扫码</panel_attributes>
+    <additional_attributes>340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>560</y>
+      <w>288</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+商家桌位id</panel_attributes>
+    <additional_attributes>340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>624</y>
+      <w>200</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+商家主页面</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>

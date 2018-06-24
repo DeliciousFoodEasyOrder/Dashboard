@@ -16,12 +16,14 @@
     <id>UMLClass</id>
     <coordinates>
       <x>144</x>
-      <y>208</y>
+      <y>184</y>
       <w>104</w>
-      <h>64</h>
+      <h>88</h>
     </coordinates>
     <panel_attributes>餐厅
 -
+店名
+地址
 邮箱
 手机号
 密码</panel_attributes>
@@ -326,14 +328,14 @@ has &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>8</x>
-      <y>184</y>
+      <y>160</y>
       <w>552</w>
-      <h>280</h>
+      <h>304</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*
 m2=*
 has ^</panel_attributes>
-    <additional_attributes>140.0;320.0;10.0;320.0;10.0;10.0;670.0;10.0;670.0;40.0</additional_attributes>
+    <additional_attributes>140.0;350.0;10.0;350.0;10.0;10.0;670.0;10.0;670.0;70.0</additional_attributes>
   </element>
 </diagram>
