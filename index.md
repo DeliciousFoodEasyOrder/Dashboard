@@ -35,20 +35,20 @@
 
 ## X1. 会议记录
 
-    - 9.1 [Inception Meeting (2018_03_18)](Meeting%20Records/Inception Meeting (2018_03_18))
-    - 9.2 [Inception Meeting (2018_05_08)](Meeting%20Records/Inception Meeting (2018_05_08))
+- 9.1 [Inception Meeting (2018_03_18)](Meeting%20Records/Inception Meeting (2018_03_18))
+- 9.2 [Inception Meeting (2018_05_08)](Meeting%20Records/Inception Meeting (2018_05_08))
 
 ## X2. Tech/Work Report
 
-    见博客收集文档
+见博客收集文档
 
 ## X3. Final Report
 
-    - [15331037](Final%20Report/15331037)
-    - [15331154](Final%20Report/15331154)
-    - [15331385](Final%20Report/15331385)
-    - [15331389](Final%20Report/15331389)
-    - [15331390](Final%20Report/15331390)
-    - [15331400](Final%20Report/15331400)
+- [15331037](Final%20Report/15331037)
+- [15331154](Final%20Report/15331154)
+- [15331385](Final%20Report/15331385)
+- [15331389](Final%20Report/15331389)
+- [15331390](Final%20Report/15331390)
+- [15331400](Final%20Report/15331400)
 
 ## X4. [演示](演示/演示)
