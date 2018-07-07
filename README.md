@@ -7,8 +7,8 @@ Record development progress of DeliciousFoodEasyOrder.
 
 |学号|姓名|英文名|专业方向|职务|
 |:--:|:--:|:--:|:--:|:--:|
-|15331390|侨|Jiaqiao Zhang|技术、规划|项目经理、后端工程师|
-|15331385|良|Junliang Yuan|技术、规划|项目经理、工程师|
+|15331390|侨|Jiaqiao Zhang|技术、规划|项目经理、架构师|
+|15331385|良|Junliang Yuan|技术、规划|项目经理、前端工程师|
 |15331389|玮|Hanwei Zhang|技术|技术经理、后端工程师|
 |15331037|东|Xudong Chen|技术|技术经理、前端工程师|
 |15331400|博|Shubo Zhang|技术|后端工程师|
